@@ -1,19 +1,53 @@
+# --------------------
 # Python
+# --------------------
 __pycache__/
 *.pyc
+*.pyo
 
+# --------------------
 # Jupyter
+# --------------------
 .ipynb_checkpoints/
 
-# Environment
-.env
+# --------------------
+# Virtual environments
+# --------------------
 venv/
+.env/
 
-# OS
+# --------------------
+# VS Code / editors
+# --------------------
+.vscode/
+*.swp
+
+# --------------------
+# OS junk
+# --------------------
 .DS_Store
 
-# VS Code
-.vscode/
+# --------------------
+# Data files (important!)
+# --------------------
+data/*
+!data/.gitkeep
 
-# Data (optional later)
-data/
+# --------------------
+# Logs / temp
+# --------------------
+*.log
+*.tmp
+
+# Mathematica
+*.nb~
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+
+# Figures
+*.png
+*.pdf   (optional, depends if you want them tracked)
